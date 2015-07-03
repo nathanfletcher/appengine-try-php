@@ -1,0 +1,330 @@
+/* Styles for the index.html file */
+body{
+	font-family: 'Raleway', Helvetica, Arial, sans-serif;
+	font-size: medium;
+}
+
+/* Styles for the header i.e. logo and navigation */
+.container{
+	width: 1349px;
+	height: 78px;
+	border: 1px solid #ffff00;
+	background-color: #ffff00;
+}
+
+.header-one{
+	width: 1170px;
+	height: 70px;
+	margin: 0 auto;
+}
+
+.header-one img{
+	float: left;
+	padding-right: 10px;
+	padding-bottom: 15px;
+}
+
+.logo a:link,
+.logo a:hover,
+.logo a:visited{
+	text-decoration: none;
+	color: black;
+}
+
+.logo h1{
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.menu-links{
+	float: right;
+	font-family: inherit;
+	font-weight: 700;
+	margin-top: -40px;
+	margin-bottom: 0px;
+	font-size: 14px;
+}
+
+.menu-links ul{
+	list-style-type: none;
+}
+
+.menu-links li{
+	display: inline;
+	margin-right: 10px;
+}
+
+.menu-links a:link{
+	text-decoration: none;
+	color: #000000;
+	padding: 15px;
+}
+
+.menu-links a:visited{
+	color: #333333;
+}
+
+.menu-links a:hover{
+	color: #ffffff;
+	background-color: #000000;
+	padding: 15px;
+}
+
+#home a:visited{
+	color: #ffffff;
+}
+
+#home{
+	background-color: #000000;
+	color: #ffffff;
+	padding: 15px;
+}
+
+/* Styles for the slideshow */
+
+#myCarousel{
+	clear: both;
+	width: 1349px;
+	height: 349px;
+	margin-top: 0px;
+	padding-top: 0px;	
+}
+
+.slideshow{
+	margin-bottom: 20px;
+	margin-top: 0px;
+}
+
+/* styles for the section content */
+
+#holder-one{
+	width: 1349px;
+	margin: 0 auto;
+	height: 500px;
+}
+
+.sub-section-one{
+	width: 1200px;
+	margin: 0 auto;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.sub-section-one img{
+	padding-bottom: 10px;
+}
+
+.sub-section-one h3{
+	font-weight: bold;
+	text-align: center;
+}
+
+.sub-section-one p{
+	text-align: justify;
+}
+
+.column-one,
+.column-two,
+.column-three{
+	width: 370px;
+	float: left;
+	margin-right: 30px;
+}
+
+/* Styles for second set of columns */
+
+#holder-two{
+	width: 1349px;
+	margin: 0 auto;
+	height: 500px;
+	background-color: #f5f5f5;
+}
+.sub-section-two{
+	width: 1200px;
+	margin: 0 auto;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.sub-section-two h4{
+	font-weight: bold;
+}
+
+#number{
+	background-color: #ffff00;
+	border: 1px solid #ffff00;
+	border-radius: 50px;
+	font-size: 30px;
+	padding: 10px;
+	float: left;
+	margin-right: 10px;
+}
+
+.one-col,
+.two-col,
+.three-col,
+.four-col,
+.five-col,
+.six-col{
+	width: 370px;
+	float: left;
+	padding-bottom: 30px;
+	text-align: justify;
+	margin-right: 30px;
+}
+
+/* Styles for the third set of columns */
+
+#holder-three{
+	width: 1349px;
+	margin: 0 auto;
+	height: 300px;
+}
+
+.sub-section-three{
+	width: 1200px;
+	margin: 0 auto;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.sub-section-three p{
+	padding-bottom: 15px;
+}
+
+.sub-section-three h3{
+	font-weight: bold;
+}
+
+.side-1, .side-2, .side-3{
+	width: 370px;
+	float: left;
+	padding-bottom: 30px;
+	text-align: justify;
+	margin-right: 30px;
+}
+
+#read-more{
+	text-align: center;
+	font-weight: bold;
+}
+
+#read-more a:link,
+#read-more a:visited{
+	text-decoration: none;
+	border: 1px solid #ffff00;
+	background-color: #ffff00;
+	padding: 10px;
+	color: #000;
+}
+
+#read-more a:hover{
+	text-decoration: none;
+	border: 1px solid #000;
+	background-color: #000;
+	padding: 10px;
+	color: #ffff00;
+}
+
+/* Styles for the footer */
+
+footer{
+	clear: both;
+	border-top: 1px solid black;
+	margin-top: 40px;
+	background-color: #000;
+	color: #fff;
+	padding-top: 30px;
+}
+
+footer h5{
+	color: #fff;
+	font-weight: bold;
+}
+
+.inner-footer{
+	width: 1200px;
+	margin: 0 auto;
+}
+
+#contact{
+	width: 350px;
+	float: left;
+	margin-right: 20px;
+	margin-bottom: 40px;
+}
+
+#contact i{
+	padding-right: 15px;
+	line-height: 1.5em;
+	color: #ffff00;
+	font-size: 20px;
+}
+
+#contact a:link,
+#contact a:visited{
+	text-decoration: none;
+	color: #ffff00;
+}
+
+#contact a:hover{
+	color: white;
+}
+
+.social-media a:link,
+.social-media a:visited{
+	text-decoration: none;
+	color: #ffff00;
+	font-size: 20px;
+	font-weight: normal;
+}
+
+.social-media a:hover{
+	color: #fff;
+}
+
+#google-map{
+	width: 500px;
+	float: left;
+}
+
+/* styles for services column */
+
+#services{
+	width: 300px;
+	float: right;
+	margin-left: 20px;
+}
+
+#services a:link,
+#services a:visited{
+	text-decoration: none;
+	color: #ffff00;
+}
+
+#services a:hover{
+	color: #fff;
+}
+
+#services li{
+	padding-bottom: 12px;
+}
+
+#copy{
+	clear: both;
+	border-top: 1px solid #fff;
+	margin-top: 20px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: center;
+}
+
+#copy a:link,
+#copy a:visited{
+	text-decoration: none;
+	color: #ffffff;
+}
+
+#copy a:hover{
+	color: #ffff00;
+}

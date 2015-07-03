@@ -1,0 +1,241 @@
+/* Styles for the products.html file */
+body{
+	font-family: 'Raleway', Helvetica, Arial, sans-serif;
+	font-size: medium;
+}
+
+/* Styles for the header i.e. logo and navigation */
+.container{
+	width: 1349px;
+	height: 78px;
+	border: 1px solid #ffff00;
+	background-color: #ffff00;
+}
+
+.header-one{
+	width: 1170px;
+	height: 70px;
+	margin: 0 auto;
+}
+
+.header-one img{
+	float: left;
+	padding-right: 10px;
+	padding-bottom: 15px;
+}
+
+.logo a:link,
+.logo a:hover,
+.logo a:visited{
+	text-decoration: none;
+	color: black;
+}
+
+.logo h1{
+	font-size: 20px;
+	font-weight: bold;
+}
+
+.menu-links{
+	float: right;
+	font-family: inherit;
+	font-weight: 700;
+	margin-top: -40px;
+	margin-bottom: 0px;
+	font-size: 14px;
+}
+
+.menu-links ul{
+	list-style-type: none;
+}
+
+.menu-links li{
+	display: inline;
+	margin-right: 10px;
+}
+
+.menu-links a:link{
+	text-decoration: none;
+	color: #000000;
+	padding: 15px;
+}
+
+.menu-links a:visited{
+	color: #333333;
+}
+
+.menu-links a:hover{
+	color: #ffffff;
+	background-color: #000000;
+	padding: 15px;
+}
+
+#products a:visited{
+	color: #ffffff;
+}
+
+#products{
+	background-color: #000000;
+	color: #ffffff;
+	padding: 15px;
+}
+
+/* styles for the section */
+
+.our-services{
+	width: 1200px;
+	margin: 0 auto;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	height: 600px;
+}
+
+.our-services h2{
+	margin-bottom: 20px;
+}
+
+.our-services h5{
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.our-services img{
+	float: left;
+	padding-right: 20px;
+}
+
+.our-services a{
+	float: right;
+	font-weight: bold;
+	text-decoration: none;
+	color: #000;
+	font-size: 16px;
+}
+
+.our-services a:hover{
+	color: #ffff00;
+}
+
+.sect-1,
+.sect-3,
+.sect-5{
+	width: 570px;
+	float: left;
+	margin-bottom: 50px;
+	margin-right: 20px;
+	text-align: justify;
+}
+
+.sect-2,
+.sect-4,
+.sect-6{
+	width: 570px;
+	float: right;
+	margin-bottom: 50px;
+	text-align: justify;
+}
+
+.list-container{
+	width: 1349px;
+	height: 250px;
+	padding-top: 30px;
+	background-color: #000;
+	padding-bottom: 30px;
+	margin-bottom: 30px;
+	margin-top: 30px;
+}
+
+.list-container h3,
+.list-container a:hover{
+	color: #fff;
+}
+
+.list-container a{
+	text-decoration: none;
+	color: #ffff00;
+}
+
+.services-list{
+	width: 1150px;
+	margin: 0 auto;
+}
+
+.list-one{
+	width: 400px;
+	float: left;
+	margin-bottom: 50px;
+}
+
+.list-two{
+	width: 400px;
+	float: right;
+	margin-bottom: 50px;
+}
+
+.civil-works{
+	clear: both;
+	width: 1200px;
+	margin: 20px auto;
+	height: 350px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+.civil-works h3, .civil-works p{
+	font-weight: bold;
+}
+
+.work1,
+.work2,
+.work3{
+	width: 270px;
+	float: left;
+	padding-right: 30px;
+	margin-right: 40px;
+	text-align: center;
+}
+
+.work4{
+	width: 270px;
+	float: left;
+	text-align: center;
+
+}
+
+/* styles for the footer */
+
+footer{
+	clear: both;
+	border-top: 1px solid black;
+	margin-top: 40px;
+	background-color: #000;
+	color: #fff;
+	padding-top: 10px;
+}
+
+footer h5{
+	color: #fff;
+	font-weight: bold;
+}
+
+.inner-footer{
+	width: 1200px;
+	margin: 0 auto;
+}
+
+#copy{
+	clear: both;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	text-align: center;
+}
+
+#copy a:link,
+#copy a:visited{
+	text-decoration: none;
+	color: #ffffff;
+}
+
+#copy a:hover{
+	color: #ffff00;
+}

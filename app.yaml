@@ -1,0 +1,72 @@
+application: helloworld
+version: 1
+runtime: php
+api_version: 1
+
+handlers:
+- url: /
+  script: helloworld.php
+
+- url: /bbs
+  script: BBS/bbs.html
+
+- url: /bbs/bbs.html
+  script: BBS/bbs.html
+
+- url: /bbs/logistics.html
+  script: BBS/logistics.html
+
+- url: /bbs/cars.html
+  script: BBS/cars.html
+
+- url: /bbs/about.html
+  script: BBS/about.html
+
+- url: /bbs/trucks.html
+  script: BBS/trucks.html
+
+- url: /images
+  static_dir: BBS/images
+
+- url: /slideshow
+  static_dir: BBS/slideshow
+
+- url: /styling
+  static_dir: BBS/styling
+
+- url: /about.html
+  script: BBS/about.html
+
+
+
+
+- url: /taivani
+  script: taivani/taivani.html
+
+- url: /taivani/taivani.html
+  script: taivani/taivani.html
+  
+- url: /taivani/about.html
+  script: taivani/about.html
+  
+- url: /taivani/services.html
+  script: taivani/services.html
+  
+- url: /taivani/projects.html
+  script: taivani/projects.html
+  
+- url: /taivani/contact.html
+  script: taivani/contact.html
+  
+- url: /taivani/blog.html
+  script: taivani/blog.html
+  
+- url: /tstyling
+  static_dir: taivani/tstyling
+  
+- url: /tslideshow
+  static_dir: taivani/tslideshow
+
+
+- url: /aboutMe
+  script: aboutMe/aboutMe.html

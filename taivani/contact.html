@@ -1,0 +1,123 @@
+<?php include'ultimateNav.php'; ?>
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Contact Us</title>
+		<link rel="stylesheet" href="../tstyling/contact.css">
+		<link href='http://fonts.googleapis.com/css?family=Arvo' rel='stylesheet' type='text/css'>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="description" content="Taivani Consult is a geotechnical firm of engineers based in Accra, Ghana.">
+	</head>
+
+	<body>
+		<header>
+			<div id="header1">
+				<div id="header2">
+						<p><a href="taivani.html">TAIVANI CONSULT</a></p>
+				</div>	
+			</div>
+
+			<div class="menu-links">
+				<ul>
+                    <li id="home"><a href="taivani.html">Home</a></li>
+                    <li><a href="../taivani/about.html">About Us</a></li>
+                    <li><a href="../taivani/services.html">Services</a></li>
+                    <li><a href="../taivani/projects.html">Portfolio</a></li>
+                    <li><a href="../taivani/blog.html">Blog</a></li>
+                    <li><a href="../taivani/contact.html">Contact Us</a></li>
+				</ul>
+			</div>
+		</header>
+
+		<section>
+			<div id="full-section">
+				<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4046239.4975386704!2d-1.0306559!3d7.9569523!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xfd75acda8dad6c7%3A0x54d7f230d093d236!2sGhana!5e0!3m2!1sen!2sgh!4v1429604014921"
+				width="860" height="300" frameborder="0" style="border:0"></iframe>
+
+				<div class="contact-us">
+				<h4>Contact Info</h4>
+				P. O. Box TN 1676,<br>
+				Teshie-Nungua Estate,<br>
+				Accra, Ghana</p>
+				
+				Tel.: +233 21 768778<br>
+				Fax.: +233 21 782928<br>
+				E-mail: gvt@taivani.com </p>
+				</div>
+
+				<div class="contact-form">
+				<h4>Contact Form</h4>
+				<p>Don't hesitate to send us a message.<br>
+				We will reply as soon as we can.<br>
+				Thank You.</p>
+				<form name="htmlform" method="post" action="html_form_send.php">				 
+                	<div id="name"><b>Your Name *</b>  </div> 
+                  		<input name="contactName" type="text" class="required requiredField" id="contactName" value="" size="39" />
+					<div id="mail"> <b>Your Email Address * </b> </div>
+                  		<input name="email" type="text" class="required requiredField" id="email" value="" size="39" />
+			 		<div id="subject"><b>Subject </b> </div>
+                  		<input name="subject" type="text" class="required requiredField" id="number" value="" size="39" />              
+             		<div id="textarea"><b>Message * </b></div>
+                		<textarea name="comments" id="commentsText" rows="10" cols="40" class="required requiredField"></textarea>
+               		<div id="submit"><input type="submit" value="Send"></input> <input type="hidden" name="submitted" id="submitted" value="true" /></div>		
+				</form>
+			</div>
+			</div>
+		</section>
+
+		<footer>
+			<div class="brief">
+				<h5>Download a Brief</h5>
+				<p><a href="#">EWF Brochure</a></p>
+				<p><a href="#">Request Free Quote</a></p>
+			</div>
+
+			<div class="newsletter">
+				<h5>Newsletter</h5>
+				<p>Subscribe to our mailing list and always be up to date</p>
+				<form method="get" action="http://www.wts.com.gh/search.php">
+					<table cellpadding="0px" cellspacing="0px">
+						<tr>
+							<td style="border-style:solid none solid solid;border-color:#4B7B9F;border-width:1px;">
+						<input type="text" name="zoom_query" placeholder="Enter your email" style="width:140px; border:0px solid; height:17px; padding:0px 3px; position:relative; font-family: 'Arvo', courier, serif;">
+							</td>
+							<td style="border-style:solid;border-color:#4B7B9F;border-width:1px;">
+						<input type="submit" value="Submit" style="border-style: none; font-family: 'Arvo', courier, serif; width: 55px; height: 20px;">
+							</td>
+						</tr>
+					</table>
+				</form>
+			</div>
+
+			<div class="contact-info">
+				<h5>Contact Info</h5>
+				<p id="address1">P. O. Box TN 1676,<br>
+				Teshie-Nungua Estate,<br>
+				Accra, Ghana</p>
+				
+				<p id="address2">Tel.: +233 21 768778<br>
+				Fax.: +233 21 782928<br>
+				E-mail: gvt@taivani.com </p>
+
+				<div class="social-media">
+				<span>Social Media: </span><a target="_blank" href="http://www.twitter.com/Taivani-Consult"><img src="styling/twitter.png"></a>
+				<a target="_blank" href="http://www.facebook.com/TaivaniConsult"><img src="styling/facebook.png"></a>
+				</div>
+			</div>
+
+			
+
+			<div class="clear-two"></div>
+
+			<div id="copy-terms">
+			<p id="copyright">&copy; 2012 Taivani Consult. All Rights Reserved.</p>
+			<p id="terms"><a href="terms.html">Terms of Use</a> | <a href="policy.html">Privacy Policy</a> | <a href="#">Login</a></p>
+			</div>
+		</footer>
+		<link rel="stylesheet" href="http://getbootstrap.com/dist/css/bootstrap.min.css">
+		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+	</body>	
+</html>
