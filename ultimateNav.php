@@ -14,6 +14,7 @@
             <ul class="nav navbar-nav">
               <li><a href="/bbs">BBS</a></li>
               <li><a href="/taivani">Taivani</a></li>
+              <li><a href="http://chalekeyboard.com">Chale Keyboard</a></li>
 
             </ul>
             <ul class="nav navbar-nav navbar-right">
